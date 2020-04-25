@@ -13,5 +13,9 @@ public class HelloController {
         map.put("msg","hello");
         return "hello";
     }
+    //
+    public  static int anInt(){
+        return 1;
+    }
 
 }
